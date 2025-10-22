@@ -1,0 +1,9 @@
+# Exclude plot files
+/Plots
+Plots.*
+
+# Exclude backup files
+/*-backups
+
+# Exclude temporary files
+fp-info-cache
