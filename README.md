@@ -5,7 +5,15 @@ This repository contains the schematic and PCB layout files for a simple breakou
 This breakout board is modelled after the TPS61220EVM-319 evaluation module (link below).
 
 ## Example Images
+<style>
+  img {
+    max-height: 400px;
+    width: auto;
+  }
+</style>
 ![Top View](https://i.imgur.com/jgy9n4q.jpeg)
+![Front PCB Design](https://i.imgur.com/airpwDt.png)
+![Back PCB Design](https://i.imgur.com/9AK6NAB.png)
 
 ## Usage
 If R1 is set to 1Mohms and R2 is set to 180kohms, the output voltage will be 3.28V when powered from a < 3.28V source.
