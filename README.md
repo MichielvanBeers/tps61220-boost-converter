@@ -4,12 +4,32 @@ This repository contains the schematic and PCB layout files for a simple breakou
 
 This breakout board is modelled after the TPS61220EVM-319 evaluation module (link below).
 
+## Example Images
+![Top View](https://i.imgur.com/jgy9n4q.jpeg)
+
 ## Usage
 If R1 is set to 1Mohms and R2 is set to 180kohms, the output voltage will be 3.28V when powered from a < 3.28V source.
 
 ## Contents
 - Schematic files
 - PCB layout files
+
+## Bill of Materials (BOM)
+
+This BOM lists the components used in the associated design.
+
+| Line No. | Manufacturer Part No. | Description | Manufacturer | Quantity | Mouser Part Number |
+|:---:|:---:|:---|:---|:---:|:---:|
+| 1 | TPS61220DCKR | Tiny Low Inp Vltg Bo / Schakelende spanningsregelaars | Texas Instruments | 1 | 595-TPS61220DCKR |
+| 2 | EPL3015-472MLC | 4.7uH Shld 20% 1.4A / Vermogensinductoren - SMD | Coilcraft | 1 | 994-EPL3015-472MLC |
+| 3 | GRM188R60J106ME47J | 10 uF 6.3 VDC 20% 06 / Meerlaagse keramische condensatoren MLCC - SMD/SMT | Murata Electronics | 2 | 81-GRM188R60J106ME7J |
+
+---
+
+### Notes
+* Quantity refers to the "Besteld Aantal Quantity Ordered" from the source document, which is the total count of components required for the order or project.
+* The Manufacturer Part Number and Description are key identifiers for the component.
+* The Mouser Part Number is included for easy reference and reordering.
 
 ## Relevant Links
 
